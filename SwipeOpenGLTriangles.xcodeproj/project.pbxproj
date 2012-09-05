@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8327078215C0A56A00A79FE8 /* BoxTexture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327078015C0A56A00A79FE8 /* BoxTexture1.png */; };
+		8327078315C0A56A00A79FE8 /* BoxTexture1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327078115C0A56A00A79FE8 /* BoxTexture1@2x.png */; };
+		8327078815C0A5C900A79FE8 /* OGDTrianglesTexturedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8327078715C0A5C900A79FE8 /* OGDTrianglesTexturedViewController.m */; };
+		835F4C3A15B8C02C0003D913 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835F4C3915B8C02C0003D913 /* UIKit.framework */; };
+		835F4C3C15B8C02C0003D913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835F4C3B15B8C02C0003D913 /* Foundation.framework */; };
+		835F4C3E15B8C02C0003D913 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835F4C3D15B8C02C0003D913 /* CoreGraphics.framework */; };
+		835F4C4015B8C02C0003D913 /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835F4C3F15B8C02C0003D913 /* GLKit.framework */; };
+		835F4C4215B8C02C0003D913 /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835F4C4115B8C02C0003D913 /* OpenGLES.framework */; };
+		835F4C4815B8C02C0003D913 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 835F4C4615B8C02C0003D913 /* InfoPlist.strings */; };
+		835F4C5115B8C02C0003D913 /* MainStoryboard_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835F4C4F15B8C02C0003D913 /* MainStoryboard_iPhone.storyboard */; };
+		835F4C5415B8C02C0003D913 /* MainStoryboard_iPad.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 835F4C5215B8C02C0003D913 /* MainStoryboard_iPad.storyboard */; };
+		835F4C5615B8C02C0003D913 /* Shader.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 835F4C5515B8C02C0003D913 /* Shader.fsh */; };
+		835F4C5815B8C02C0003D913 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 835F4C5715B8C02C0003D913 /* Shader.vsh */; };
+		837FE68B15BE9E660009A183 /* OGDTrianglesColoredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837FE68A15BE9E660009A183 /* OGDTrianglesColoredViewController.m */; };
+		837FE68F15BF52640009A183 /* OGDTrianglesLightingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837FE68E15BF52640009A183 /* OGDTrianglesLightingViewController.m */; };
+		8398A34A15B95C210090B2C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8398A34515B95C210090B2C3 /* main.m */; };
+		8398A34B15B95C210090B2C3 /* OGDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8398A34715B95C210090B2C3 /* OGDAppDelegate.m */; };
+		8398A35315B95EB90090B2C3 /* OGDMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8398A35215B95EB90090B2C3 /* OGDMenuViewController.m */; };
+		839DE0A215C1FD6800D11D7B /* LogoTexture.png in Resources */ = {isa = PBXBuildFile; fileRef = 839DE0A115C1FD6800D11D7B /* LogoTexture.png */; };
+		83B64B1315BCB4F800CD5CDF /* OGDTrianglesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 83B64B1215BCB4F800CD5CDF /* OGDTrianglesViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		8327078015C0A56A00A79FE8 /* BoxTexture1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = BoxTexture1.png; sourceTree = "<group>"; };
+		8327078115C0A56A00A79FE8 /* BoxTexture1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BoxTexture1@2x.png"; sourceTree = "<group>"; };
+		8327078615C0A5C900A79FE8 /* OGDTrianglesTexturedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGDTrianglesTexturedViewController.h; sourceTree = "<group>"; };
+		8327078715C0A5C900A79FE8 /* OGDTrianglesTexturedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGDTrianglesTexturedViewController.m; sourceTree = "<group>"; };
+		8349CF3C15F77D6000B53E38 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
+		835F4C3515B8C02C0003D913 /* SwipeOpenGLTriangles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeOpenGLTriangles.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		835F4C3915B8C02C0003D913 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		835F4C3B15B8C02C0003D913 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		835F4C3D15B8C02C0003D913 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		835F4C3F15B8C02C0003D913 /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		835F4C4115B8C02C0003D913 /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		835F4C4515B8C02C0003D913 /* SwipeOpenGLTriangles-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "SwipeOpenGLTriangles-Info.plist"; sourceTree = "<group>"; };
+		835F4C4715B8C02C0003D913 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		835F4C4B15B8C02C0003D913 /* SwipeOpenGLTriangles-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "SwipeOpenGLTriangles-Prefix.pch"; sourceTree = "<group>"; };
+		835F4C5015B8C02C0003D913 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPhone.storyboard; sourceTree = "<group>"; };
+		835F4C5315B8C02C0003D913 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard_iPad.storyboard; sourceTree = "<group>"; };
+		835F4C5515B8C02C0003D913 /* Shader.fsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; path = Shader.fsh; sourceTree = "<group>"; };
+		835F4C5715B8C02C0003D913 /* Shader.vsh */ = {isa = PBXFileReference; explicitFileType = sourcecode.glsl; path = Shader.vsh; sourceTree = "<group>"; };
+		837FE68915BE9E660009A183 /* OGDTrianglesColoredViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGDTrianglesColoredViewController.h; sourceTree = "<group>"; };
+		837FE68A15BE9E660009A183 /* OGDTrianglesColoredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGDTrianglesColoredViewController.m; sourceTree = "<group>"; };
+		837FE68D15BF52640009A183 /* OGDTrianglesLightingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGDTrianglesLightingViewController.h; sourceTree = "<group>"; };
+		837FE68E15BF52640009A183 /* OGDTrianglesLightingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGDTrianglesLightingViewController.m; sourceTree = "<group>"; };
+		8398A34515B95C210090B2C3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = "<group>"; };
+		8398A34615B95C210090B2C3 /* OGDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGDAppDelegate.h; sourceTree = "<group>"; };
+		8398A34715B95C210090B2C3 /* OGDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGDAppDelegate.m; sourceTree = "<group>"; };
+		8398A35115B95EB90090B2C3 /* OGDMenuViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGDMenuViewController.h; sourceTree = "<group>"; };
+		8398A35215B95EB90090B2C3 /* OGDMenuViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGDMenuViewController.m; sourceTree = "<group>"; };
+		839DE0A115C1FD6800D11D7B /* LogoTexture.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LogoTexture.png; sourceTree = "<group>"; };
+		83B64B1115BCB4F800CD5CDF /* OGDTrianglesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGDTrianglesViewController.h; sourceTree = "<group>"; };
+		83B64B1215BCB4F800CD5CDF /* OGDTrianglesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGDTrianglesViewController.m; sourceTree = "<group>"; };
+		83F1857E15E875BC00E3726F /* LICENSE.txt */ = {isa = PBXFileReference; lastKnownFileType = text; path = LICENSE.txt; sourceTree = SOURCE_ROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		835F4C3215B8C02C0003D913 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835F4C3A15B8C02C0003D913 /* UIKit.framework in Frameworks */,
+				835F4C3C15B8C02C0003D913 /* Foundation.framework in Frameworks */,
+				835F4C3E15B8C02C0003D913 /* CoreGraphics.framework in Frameworks */,
+				835F4C4015B8C02C0003D913 /* GLKit.framework in Frameworks */,
+				835F4C4215B8C02C0003D913 /* OpenGLES.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8327077E15C0A56A00A79FE8 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				8327077F15C0A56A00A79FE8 /* Textures */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		8327077F15C0A56A00A79FE8 /* Textures */ = {
+			isa = PBXGroup;
+			children = (
+				8327078015C0A56A00A79FE8 /* BoxTexture1.png */,
+				8327078115C0A56A00A79FE8 /* BoxTexture1@2x.png */,
+				839DE0A115C1FD6800D11D7B /* LogoTexture.png */,
+			);
+			path = Textures;
+			sourceTree = "<group>";
+		};
+		8327078515C0A5A400A79FE8 /* Triangles Textured */ = {
+			isa = PBXGroup;
+			children = (
+				8327078615C0A5C900A79FE8 /* OGDTrianglesTexturedViewController.h */,
+				8327078715C0A5C900A79FE8 /* OGDTrianglesTexturedViewController.m */,
+			);
+			name = "Triangles Textured";
+			sourceTree = "<group>";
+		};
+		835F4C2A15B8C02C0003D913 = {
+			isa = PBXGroup;
+			children = (
+				835F4C4315B8C02C0003D913 /* SwipeOpenGLTriangles */,
+				835F4C3815B8C02C0003D913 /* Frameworks */,
+				835F4C3615B8C02C0003D913 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		835F4C3615B8C02C0003D913 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				835F4C3515B8C02C0003D913 /* SwipeOpenGLTriangles.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		835F4C3815B8C02C0003D913 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				835F4C3915B8C02C0003D913 /* UIKit.framework */,
+				835F4C3B15B8C02C0003D913 /* Foundation.framework */,
+				835F4C3D15B8C02C0003D913 /* CoreGraphics.framework */,
+				835F4C3F15B8C02C0003D913 /* GLKit.framework */,
+				835F4C4115B8C02C0003D913 /* OpenGLES.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		835F4C4315B8C02C0003D913 /* SwipeOpenGLTriangles */ = {
+			isa = PBXGroup;
+			children = (
+				8398A34415B95C210090B2C3 /* src */,
+				8327077E15C0A56A00A79FE8 /* Resources */,
+				8398A34E15B95C470090B2C3 /* Shaders */,
+				8398A34D15B95C320090B2C3 /* Storyboards */,
+				835F4C4415B8C02C0003D913 /* Supporting Files */,
+				83F1857E15E875BC00E3726F /* LICENSE.txt */,
+				8349CF3C15F77D6000B53E38 /* README.md */,
+			);
+			path = SwipeOpenGLTriangles;
+			sourceTree = "<group>";
+		};
+		835F4C4415B8C02C0003D913 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				835F4C4515B8C02C0003D913 /* SwipeOpenGLTriangles-Info.plist */,
+				835F4C4615B8C02C0003D913 /* InfoPlist.strings */,
+				8398A34515B95C210090B2C3 /* main.m */,
+				835F4C4B15B8C02C0003D913 /* SwipeOpenGLTriangles-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		837FE68715BE9E2D0009A183 /* Triangles Colored */ = {
+			isa = PBXGroup;
+			children = (
+				837FE68915BE9E660009A183 /* OGDTrianglesColoredViewController.h */,
+				837FE68A15BE9E660009A183 /* OGDTrianglesColoredViewController.m */,
+			);
+			name = "Triangles Colored";
+			sourceTree = "<group>";
+		};
+		837FE68C15BF524B0009A183 /* Triangles Lighting */ = {
+			isa = PBXGroup;
+			children = (
+				837FE68D15BF52640009A183 /* OGDTrianglesLightingViewController.h */,
+				837FE68E15BF52640009A183 /* OGDTrianglesLightingViewController.m */,
+			);
+			name = "Triangles Lighting";
+			sourceTree = "<group>";
+		};
+		8398A34415B95C210090B2C3 /* src */ = {
+			isa = PBXGroup;
+			children = (
+				8398A35815B9608A0090B2C3 /* App Delegate */,
+				8398A35A15B9609B0090B2C3 /* Demos */,
+				8398A35015B95E920090B2C3 /* Menu */,
+			);
+			path = src;
+			sourceTree = "<group>";
+		};
+		8398A34D15B95C320090B2C3 /* Storyboards */ = {
+			isa = PBXGroup;
+			children = (
+				835F4C4F15B8C02C0003D913 /* MainStoryboard_iPhone.storyboard */,
+				835F4C5215B8C02C0003D913 /* MainStoryboard_iPad.storyboard */,
+			);
+			name = Storyboards;
+			sourceTree = "<group>";
+		};
+		8398A34E15B95C470090B2C3 /* Shaders */ = {
+			isa = PBXGroup;
+			children = (
+				835F4C5515B8C02C0003D913 /* Shader.fsh */,
+				835F4C5715B8C02C0003D913 /* Shader.vsh */,
+			);
+			path = Shaders;
+			sourceTree = "<group>";
+		};
+		8398A35015B95E920090B2C3 /* Menu */ = {
+			isa = PBXGroup;
+			children = (
+				8398A35115B95EB90090B2C3 /* OGDMenuViewController.h */,
+				8398A35215B95EB90090B2C3 /* OGDMenuViewController.m */,
+			);
+			name = Menu;
+			sourceTree = "<group>";
+		};
+		8398A35815B9608A0090B2C3 /* App Delegate */ = {
+			isa = PBXGroup;
+			children = (
+				8398A34615B95C210090B2C3 /* OGDAppDelegate.h */,
+				8398A34715B95C210090B2C3 /* OGDAppDelegate.m */,
+			);
+			name = "App Delegate";
+			sourceTree = "<group>";
+		};
+		8398A35A15B9609B0090B2C3 /* Demos */ = {
+			isa = PBXGroup;
+			children = (
+				83B64B1015BCB4E300CD5CDF /* Triangles */,
+				837FE68715BE9E2D0009A183 /* Triangles Colored */,
+				837FE68C15BF524B0009A183 /* Triangles Lighting */,
+				8327078515C0A5A400A79FE8 /* Triangles Textured */,
+			);
+			name = Demos;
+			sourceTree = "<group>";
+		};
+		83B64B1015BCB4E300CD5CDF /* Triangles */ = {
+			isa = PBXGroup;
+			children = (
+				83B64B1115BCB4F800CD5CDF /* OGDTrianglesViewController.h */,
+				83B64B1215BCB4F800CD5CDF /* OGDTrianglesViewController.m */,
+			);
+			name = Triangles;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		835F4C3415B8C02C0003D913 /* SwipeOpenGLTriangles */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 835F4C5E15B8C02C0003D913 /* Build configuration list for PBXNativeTarget "SwipeOpenGLTriangles" */;
+			buildPhases = (
+				835F4C3115B8C02C0003D913 /* Sources */,
+				835F4C3215B8C02C0003D913 /* Frameworks */,
+				835F4C3315B8C02C0003D913 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwipeOpenGLTriangles;
+			productName = OpenGLESDrawing;
+			productReference = 835F4C3515B8C02C0003D913 /* SwipeOpenGLTriangles.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		835F4C2C15B8C02C0003D913 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = OGD;
+				LastUpgradeCheck = 0430;
+				ORGANIZATIONNAME = "Chris Miles";
+			};
+			buildConfigurationList = 835F4C2F15B8C02C0003D913 /* Build configuration list for PBXProject "SwipeOpenGLTriangles" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 835F4C2A15B8C02C0003D913;
+			productRefGroup = 835F4C3615B8C02C0003D913 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				835F4C3415B8C02C0003D913 /* SwipeOpenGLTriangles */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		835F4C3315B8C02C0003D913 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				835F4C4815B8C02C0003D913 /* InfoPlist.strings in Resources */,
+				835F4C5115B8C02C0003D913 /* MainStoryboard_iPhone.storyboard in Resources */,
+				835F4C5415B8C02C0003D913 /* MainStoryboard_iPad.storyboard in Resources */,
+				835F4C5615B8C02C0003D913 /* Shader.fsh in Resources */,
+				835F4C5815B8C02C0003D913 /* Shader.vsh in Resources */,
+				8327078215C0A56A00A79FE8 /* BoxTexture1.png in Resources */,
+				8327078315C0A56A00A79FE8 /* BoxTexture1@2x.png in Resources */,
+				839DE0A215C1FD6800D11D7B /* LogoTexture.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		835F4C3115B8C02C0003D913 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8398A34A15B95C210090B2C3 /* main.m in Sources */,
+				8398A34B15B95C210090B2C3 /* OGDAppDelegate.m in Sources */,
+				8398A35315B95EB90090B2C3 /* OGDMenuViewController.m in Sources */,
+				83B64B1315BCB4F800CD5CDF /* OGDTrianglesViewController.m in Sources */,
+				837FE68B15BE9E660009A183 /* OGDTrianglesColoredViewController.m in Sources */,
+				837FE68F15BF52640009A183 /* OGDTrianglesLightingViewController.m in Sources */,
+				8327078815C0A5C900A79FE8 /* OGDTrianglesTexturedViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		835F4C4615B8C02C0003D913 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				835F4C4715B8C02C0003D913 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		835F4C4F15B8C02C0003D913 /* MainStoryboard_iPhone.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				835F4C5015B8C02C0003D913 /* en */,
+			);
+			name = MainStoryboard_iPhone.storyboard;
+			sourceTree = "<group>";
+		};
+		835F4C5215B8C02C0003D913 /* MainStoryboard_iPad.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				835F4C5315B8C02C0003D913 /* en */,
+			);
+			name = MainStoryboard_iPad.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		835F4C5C15B8C02C0003D913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		835F4C5D15B8C02C0003D913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
+				CLANG_ENABLE_OBJC_ARC = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
+				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		835F4C5F15B8C02C0003D913 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwipeOpenGLTriangles/SwipeOpenGLTriangles-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "SwipeOpenGLTriangles/SwipeOpenGLTriangles-Info.plist";
+				PRODUCT_NAME = SwipeOpenGLTriangles;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		835F4C6015B8C02C0003D913 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "SwipeOpenGLTriangles/SwipeOpenGLTriangles-Prefix.pch";
+				"GCC_THUMB_SUPPORT[arch=armv6]" = "";
+				INFOPLIST_FILE = "SwipeOpenGLTriangles/SwipeOpenGLTriangles-Info.plist";
+				PRODUCT_NAME = SwipeOpenGLTriangles;
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		835F4C2F15B8C02C0003D913 /* Build configuration list for PBXProject "SwipeOpenGLTriangles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835F4C5C15B8C02C0003D913 /* Debug */,
+				835F4C5D15B8C02C0003D913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		835F4C5E15B8C02C0003D913 /* Build configuration list for PBXNativeTarget "SwipeOpenGLTriangles" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				835F4C5F15B8C02C0003D913 /* Debug */,
+				835F4C6015B8C02C0003D913 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 835F4C2C15B8C02C0003D913 /* Project object */;
+}
