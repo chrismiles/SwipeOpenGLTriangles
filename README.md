@@ -5,6 +5,7 @@ SwipeOpenGLTriangles
 
 Sample app from the OpenGL ES for iOS 5 talk by Chris Miles at Swipe Conference 2012.
 
+http://swipeconference.com.au/sessions#12-opengl-es-with-ios-5-part-1-learning-to-draw
 
 
 License
