@@ -5,7 +5,35 @@ SwipeOpenGLTriangles
 
 Sample app from the OpenGL ES for iOS 5 talk by Chris Miles at Swipe Conference 2012.
 
-http://swipeconference.com.au/sessions#12-opengl-es-with-ios-5-part-1-learning-to-draw
+<http://swipeconference.com.au/sessions#12-opengl-es-with-ios-5-part-1-learning-to-draw>
+
+The app demonstrates how to implement simple OpenGL ES rendering concepts using GLKit, such as:
+
+* Setup OpenGL ES scene using GLKViewController + GLKView
+* Rendering triangles (GL_TRIANGLES) and meshes made of triangles
+* Applying vertex colours, using GLKBaseEffect
+* Applying lighting, using GLKBaseEffect
+* Applying texturing, using GLKBaseEffect and GLKTextureLoader
+* Using Vertex Array Objects (VAO) and Vertex Buffer Objects (VBO)
+* Using interleaved vertex arrays (IVA)
+* Animating vertex positions (tap screen to animate between flat triangles and 3D open box shape)
+
+The sample app is universal and supports all orientations.
+
+
+Presentation
+------------
+
+Download the slides (PDF) for the presentation from <http://chrismiles.info/presentations/SwipeConf-2012-OpenGL-ES-iOS5/Swipe-2012-OpenGL-ES-iOS5-Part1.pdf>
+
+
+Images
+------
+
+![SwipeOpenGLTriangles Menu](https://lh6.googleusercontent.com/-_UKXTWfodhI/UFEUwTnnSWI/AAAAAAAAAS4/bT-J8hBl9Bo/s640/SwipeOpenGLTriangles-Menu.png "SwipeOpenGLTriangles Menu")
+![SwipeOpenGLTriangles GL_TRIANGLES Coloured](https://lh6.googleusercontent.com/-xvzMn6b43sk/UFEUwtBS1FI/AAAAAAAAAS8/XTG5LsGlqI0/s640/SwipeOpenGLTriangles-colours.png "SwipeOpenGLTriangles GL_TRIANGLES Coloured")
+![SwipeOpenGLTriangles GL_TRIANGLES + Lighting](https://lh5.googleusercontent.com/-rd6-1NGmXow/UFEUwnARmiI/AAAAAAAAATA/-FIzyXb4BNk/s640/SwipeOpenGLTriangles-lighting.png "SwipeOpenGLTriangles GL_TRIANGLES + Lighting")
+![SwipeOpenGLTriangles GL_TRIANGLES Textured](https://lh4.googleusercontent.com/-jgL1NGmmOHM/UFEUx7xThGI/AAAAAAAAATQ/owzJxdvwe5s/s640/SwipeOpenGLTriangles-textured.png "SwipeOpenGLTriangles GL_TRIANGLES Textured")
 
 
 License
