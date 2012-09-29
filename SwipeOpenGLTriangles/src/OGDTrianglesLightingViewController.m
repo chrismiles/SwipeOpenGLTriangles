@@ -192,8 +192,6 @@ static float QuadraticEaseInOut(float p);
     GLuint _trianglesVertexBuffer;
     
     vertexStruct *_vertexData;
-    
-    OGDTrianglesFillMode _trianglesFillMode;
 }
 @property (strong, nonatomic) EAGLContext *context;
 @property (strong, nonatomic) GLKBaseEffect *effect;
@@ -466,8 +464,6 @@ static float QuadraticEaseInOut(float p);
 - (void)updateTrianglesFillMode:(OGDTrianglesFillMode)trianglesFillMode
 {
     self.effect.useConstantColor = (trianglesFillMode == OGDTrianglesFillModeConstantColor);
-
-    _trianglesFillMode = trianglesFillMode;
 }
 
 

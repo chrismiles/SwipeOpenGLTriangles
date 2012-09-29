@@ -29,13 +29,6 @@
 #import "OGDTrianglesTexturedViewController.h"
 
 
-typedef enum {
-    OGDTrianglesFillModeConstantColor = 0,
-    OGDTrianglesFillModeVertexColors,
-    OGDTrianglesFillModeTextured
-} OGDTrianglesFillMode;
-
-
 typedef struct _vertexStruct
 {
     GLfloat position[3];
@@ -194,8 +187,6 @@ static float QuadraticEaseInOut(float p);
     GLuint _trianglesVertexBuffer;
     
     vertexStruct *_vertexData;
-    
-    OGDTrianglesFillMode _trianglesFillMode;
     
     GLKTextureInfo *_textureInfo;
 }
