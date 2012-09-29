@@ -22,6 +22,7 @@
 		835F4C5815B8C02C0003D913 /* Shader.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 835F4C5715B8C02C0003D913 /* Shader.vsh */; };
 		837FE68B15BE9E660009A183 /* OGDTrianglesColoredViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837FE68A15BE9E660009A183 /* OGDTrianglesColoredViewController.m */; };
 		837FE68F15BF52640009A183 /* OGDTrianglesLightingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 837FE68E15BF52640009A183 /* OGDTrianglesLightingViewController.m */; };
+		8386852D1616AC4F00B707EF /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8386852C1616AC4F00B707EF /* Default-568h@2x.png */; };
 		8398A34A15B95C210090B2C3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 8398A34515B95C210090B2C3 /* main.m */; };
 		8398A34B15B95C210090B2C3 /* OGDAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8398A34715B95C210090B2C3 /* OGDAppDelegate.m */; };
 		8398A35315B95EB90090B2C3 /* OGDMenuViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8398A35215B95EB90090B2C3 /* OGDMenuViewController.m */; };
@@ -52,6 +53,7 @@
 		837FE68A15BE9E660009A183 /* OGDTrianglesColoredViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGDTrianglesColoredViewController.m; sourceTree = "<group>"; };
 		837FE68D15BF52640009A183 /* OGDTrianglesLightingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGDTrianglesLightingViewController.h; sourceTree = "<group>"; };
 		837FE68E15BF52640009A183 /* OGDTrianglesLightingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGDTrianglesLightingViewController.m; sourceTree = "<group>"; };
+		8386852C1616AC4F00B707EF /* Default-568h@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Default-568h@2x.png"; sourceTree = "<group>"; };
 		8398A34515B95C210090B2C3 /* main.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = main.m; path = src/main.m; sourceTree = "<group>"; };
 		8398A34615B95C210090B2C3 /* OGDAppDelegate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGDAppDelegate.h; sourceTree = "<group>"; };
 		8398A34715B95C210090B2C3 /* OGDAppDelegate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGDAppDelegate.m; sourceTree = "<group>"; };
@@ -109,6 +111,7 @@
 		835F4C2A15B8C02C0003D913 = {
 			isa = PBXGroup;
 			children = (
+				8386852C1616AC4F00B707EF /* Default-568h@2x.png */,
 				835F4C4315B8C02C0003D913 /* SwipeOpenGLTriangles */,
 				835F4C3815B8C02C0003D913 /* Frameworks */,
 				835F4C3615B8C02C0003D913 /* Products */,
@@ -304,6 +307,7 @@
 				8327078215C0A56A00A79FE8 /* BoxTexture1.png in Resources */,
 				8327078315C0A56A00A79FE8 /* BoxTexture1@2x.png in Resources */,
 				839DE0A215C1FD6800D11D7B /* LogoTexture.png in Resources */,
+				8386852D1616AC4F00B707EF /* Default-568h@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
