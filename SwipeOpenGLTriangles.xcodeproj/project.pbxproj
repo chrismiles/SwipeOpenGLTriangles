@@ -10,6 +10,10 @@
 		8327078215C0A56A00A79FE8 /* BoxTexture1.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327078015C0A56A00A79FE8 /* BoxTexture1.png */; };
 		8327078315C0A56A00A79FE8 /* BoxTexture1@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8327078115C0A56A00A79FE8 /* BoxTexture1@2x.png */; };
 		8327078815C0A5C900A79FE8 /* OGDTrianglesTexturedViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8327078715C0A5C900A79FE8 /* OGDTrianglesTexturedViewController.m */; };
+		8336A507161855200064619E /* appicon57.png in Resources */ = {isa = PBXBuildFile; fileRef = 8336A503161855200064619E /* appicon57.png */; };
+		8336A508161855200064619E /* appicon57@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8336A504161855200064619E /* appicon57@2x.png */; };
+		8336A509161855200064619E /* appicon72.png in Resources */ = {isa = PBXBuildFile; fileRef = 8336A505161855200064619E /* appicon72.png */; };
+		8336A50A161855200064619E /* appicon72@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 8336A506161855200064619E /* appicon72@2x.png */; };
 		835F4C3A15B8C02C0003D913 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835F4C3915B8C02C0003D913 /* UIKit.framework */; };
 		835F4C3C15B8C02C0003D913 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835F4C3B15B8C02C0003D913 /* Foundation.framework */; };
 		835F4C3E15B8C02C0003D913 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 835F4C3D15B8C02C0003D913 /* CoreGraphics.framework */; };
@@ -35,6 +39,10 @@
 		8327078115C0A56A00A79FE8 /* BoxTexture1@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "BoxTexture1@2x.png"; sourceTree = "<group>"; };
 		8327078615C0A5C900A79FE8 /* OGDTrianglesTexturedViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OGDTrianglesTexturedViewController.h; sourceTree = "<group>"; };
 		8327078715C0A5C900A79FE8 /* OGDTrianglesTexturedViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OGDTrianglesTexturedViewController.m; sourceTree = "<group>"; };
+		8336A503161855200064619E /* appicon57.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon57.png; sourceTree = "<group>"; };
+		8336A504161855200064619E /* appicon57@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon57@2x.png"; sourceTree = "<group>"; };
+		8336A505161855200064619E /* appicon72.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = appicon72.png; sourceTree = "<group>"; };
+		8336A506161855200064619E /* appicon72@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "appicon72@2x.png"; sourceTree = "<group>"; };
 		8349CF3C15F77D6000B53E38 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = text; path = README.md; sourceTree = SOURCE_ROOT; };
 		835F4C3515B8C02C0003D913 /* SwipeOpenGLTriangles.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwipeOpenGLTriangles.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		835F4C3915B8C02C0003D913 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
@@ -84,6 +92,7 @@
 		8327077E15C0A56A00A79FE8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				8336A502161855200064619E /* Appicons */,
 				8327077F15C0A56A00A79FE8 /* Textures */,
 			);
 			path = Resources;
@@ -106,6 +115,17 @@
 				8327078715C0A5C900A79FE8 /* OGDTrianglesTexturedViewController.m */,
 			);
 			name = "Triangles Textured";
+			sourceTree = "<group>";
+		};
+		8336A502161855200064619E /* Appicons */ = {
+			isa = PBXGroup;
+			children = (
+				8336A503161855200064619E /* appicon57.png */,
+				8336A504161855200064619E /* appicon57@2x.png */,
+				8336A505161855200064619E /* appicon72.png */,
+				8336A506161855200064619E /* appicon72@2x.png */,
+			);
+			path = Appicons;
 			sourceTree = "<group>";
 		};
 		835F4C2A15B8C02C0003D913 = {
@@ -308,6 +328,10 @@
 				8327078315C0A56A00A79FE8 /* BoxTexture1@2x.png in Resources */,
 				839DE0A215C1FD6800D11D7B /* LogoTexture.png in Resources */,
 				8386852D1616AC4F00B707EF /* Default-568h@2x.png in Resources */,
+				8336A507161855200064619E /* appicon57.png in Resources */,
+				8336A508161855200064619E /* appicon57@2x.png in Resources */,
+				8336A509161855200064619E /* appicon72.png in Resources */,
+				8336A50A161855200064619E /* appicon72@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
