@@ -24,7 +24,7 @@ The sample app is universal and supports all orientations.
 Presentation
 ------------
 
-Watch the presentation video at <https://www.youtube.com/watch?v=s6VCaFQFBtM>
+Watch the presentation videos at <https://www.youtube.com/watch?v=s6VCaFQFBtM> and <https://www.youtube.com/watch?v=dkqBjsEpt5g>
 
 Find the presentation slides at <https://speakerdeck.com/chrismiles/opengl-es-with-ios-5-part-1-learning-to-draw>
 
